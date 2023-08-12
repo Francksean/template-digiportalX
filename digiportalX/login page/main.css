@@ -1,0 +1,166 @@
+body {
+  background: linear-gradient(90deg, #F07D00 0%, #F07D00 26%, #A2258D 80%);
+  background-size: cover;
+  padding: 40px 20px 30px 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+#respo-logo {
+  display: none;
+}
+
+.container {
+  background-color: white;
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 650px;
+  position: relative;
+  border-radius: 1em;
+  box-shadow: 5px 5px 15px rgb(73, 56, 56);
+}
+.container .left-side {
+  position: absolute;
+  top: 50px;
+  left: 30px;
+  background-color: white;
+  box-shadow: 1px 1px 15px rgb(201, 186, 186);
+  width: 40%;
+  height: 550px;
+  border-radius: 0.5em;
+  padding-left: 20px;
+}
+.container #main-img {
+  width: 650px;
+  height: 650px;
+  position: absolute;
+  top: 0px;
+  right: 30px;
+}
+
+form {
+  width: 60%;
+}
+form .matricule {
+  margin-bottom: 40px;
+}
+form .matricule * {
+  display: block;
+}
+form .matricule label {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+form .matricule input {
+  width: 100%;
+  border-radius: 0.5em;
+  padding-left: 15px;
+  height: 55px;
+  font-size: 15px;
+  border: 1px solid gainsboro;
+}
+form .password {
+  margin-bottom: 5px;
+}
+form .password .label-password {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+form .password * {
+  display: block;
+}
+form .password label {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+form .password input {
+  width: 100%;
+  border-radius: 0.5em;
+  padding-left: 15px;
+  height: 55px;
+  font-size: 15px;
+  border: 1px solid gainsboro;
+}
+form .view {
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+}
+form .bas-de-form {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+}
+
+input:hover {
+  cursor: pointer;
+}
+
+#btn-login {
+  height: 65px;
+  width: 60%;
+  position: absolute;
+  bottom: 50px;
+  font-weight: bold;
+  border-radius: 0.5em;
+  background: none;
+  border: 1px solid gainsboro;
+  transition: 0.1s;
+}
+#btn-login a {
+  text-decoration: none;
+}
+#btn-login:hover {
+  font-weight: 700;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1100px) {
+  #main-img {
+    display: none;
+  }
+  body {
+    padding: 0px 20px 0px 0px;
+    background: none;
+    position: relative;
+  }
+  #respo-logo {
+    display: block;
+    scale: 1;
+    margin: 0px;
+    width: 300px;
+    position: absolute;
+    top: 0%;
+    right: 5%;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    background: none;
+    box-shadow: none;
+    position: relative;
+  }
+  .container .left-side {
+    width: 100%;
+    left: 0px;
+    top: 350px;
+    box-shadow: none;
+  }
+  form {
+    width: 90%;
+  }
+  #btn-login {
+    right: 22%;
+  }
+  .remember {
+    position: absolute;
+    bottom: 22%;
+  }
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="../login page/logo-dcl.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>DigiportalX-sign-up-page</title>
+    <link rel="stylesheet" href="styles_folders\main.css">
+    <script src="main.js" async></script>
+  </head>
+  <body>
+    <div class="container">
+      <img src="./images/left-side-image.png" alt="logo-dlc" id="head-respo">
+      <div class="left-side">
+        <!-- <div class="demi-cercle-1"></div>
+        <div class="demi-cercle-2"></div> -->
+        <div class="front-card elevator">
+          <div class="front-card-content ">
+            <img src="./images/avatar.png" alt="avatar">
+            <div class="matricule-on-card">
+              <h4>Matricule</h4>
+              <p id="front-card-matricule"></p>
+            </div>
+            <div class="firstname-on-card">
+              <h4>nom</h4>
+              <p id="name-content"></p>
+            </div>
+            <div class="lastname-on-card">
+              <h4>prénom</h4>
+              <p id="lastname-content"></p>
+            </div>
+            <div class="niveau-on-card">
+              <h4>niveau</h4>
+              <p id="level-on-card"></p>
+            </div>
+            <div class="filiere-on-card">
+              <h4>filière</h4>
+              <p id="filiere-on-card"></p>
+            </div>
+            <div class="statut-on-card">
+              <h4>statut</h4>
+              <p id="statut-on-card"></p>
+            </div>
+            <div class="sexe-on-card">
+              <h4>sexe</h4>
+              <p id="sexe-on-card"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="right-side">
+        <h2>Inscrivez-vous !</h2>
+        <form action="#" method="post">
+          <div class="card-name">
+            <label for="name">Votre nom</label>
+            <input id="name" type="text" placeholder="e.g. Jane Ndongo">
+          </div>
+          <div class="card-lastname">
+            <label for="lastname">Votre prenom</label>
+            <input id="lastname" type="text" placeholder="e.g. Jane Ndongo">
+          </div>
+          <div class="card-matricule">
+            <label for="card-matricule">Votre matricule</label>
+            <input id="card-matricule" type="text" placeholder="e.g DC-35-1Z-340">
+          </div>
+          <div class="card-niveau">
+            <label for="niveau">Votre niveau</label>
+              <select name="niveau" id="card-niveau">
+                <option value="B1" selected>B1</option>
+                <option value="B2">B2</option>
+                <option value="B3">B3</option>
+                <option value="B4">B4</option>
+                <option value="B5">B5</option>
+              </select>
+          </div>
+          <div class="card-filiere">
+            <label for="filiere">Votre filiere</label>
+              <select name="filiere" id="filiere-niveau">
+                <option value="marketing digital" selected>marketing digital</option>
+                <option value="banque & finance">banque & finance</option>
+                <option value="achat & logistique">achat & logistique</option>
+                <option value="ressources humaines digitales">ressources humaines digitales</option>
+                <option value="web marketing">web marketing</option>
+                <option value="management de gestion">management de gestion</option>
+                <option value="gestion de projet">gestion de projet</option>
+              </select>
+          </div>
+          <div class="card-password">
+            <label for="password">Votre mot de passe</label>
+            <input type="password" id="card-password" value="">
+          </div>
+          <div class="card-password-confirm">
+            <label for="password-confirm">Vérifiez le mot de passe</label>
+            <input type="password" id="card-password-confirm" value="">
+          </div>
+          <div class="email">
+            <label for="email-address">Votre adrresse e-mail</label>
+            <input type="email" name="email-address" id="user-email" placeholder="xyz@mail.com" value=" ">
+          </div>
+          <div class="statut">
+            <label for="statut">Votre statut</label>
+            <select name="select-statut" id="card-statut">
+              <option value="étudiant">Etudiant</option>
+              <option value="Intervenant">Intervenant</option>
+              <option value="Administraion">Administraion</option>
+            </select>
+          </div>
+          <div class="sexe">
+            <label for="card-sexe">Votre sexe</label>
+            <select name="sexe" id="card-sexe">
+              <option value="Femme">Femme</option>
+              <option value="Homme">Homme</option>
+            </select>
+          </div>
+          <button type="button" id="sign-in-btn">Inscrivez-vous</button>
+        </form>
+      </div>
+    </div>
+  
+  </body>
+</html>
